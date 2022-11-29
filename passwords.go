@@ -11,9 +11,9 @@ func init() {
 }
 
 const (
-	lowerCharSet   = "abcdedfghijklmnopqrst"
+	lowerCharSet   = "abcdefghijklmnopqrstuvwxyz"
 	upperCharSet   = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-	specialCharSet = "!@#$%&*"
+	specialCharSet = "!\"£$%&/()=?^'ìèé[+*]}{òç@à°#ù§<>,;.:-_\|"
 	numberSet      = "0123456789"
 	allCharSet     = lowerCharSet + upperCharSet + specialCharSet + numberSet
 )
