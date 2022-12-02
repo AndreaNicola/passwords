@@ -13,7 +13,7 @@ func init() {
 const (
 	lowerCharSet   = "abcdefghijklmnopqrstuvwxyz"
 	upperCharSet   = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-	specialCharSet = "!\"£$%&/()=?^'ìèé[+*]}{òç@à°#ù§<>,;.:-_\|"
+	specialCharSet = "!\"£$%&/()=?^'ìèé[+*]}{òç@à°#ù§<>,;.:-_\\|"
 	numberSet      = "0123456789"
 	allCharSet     = lowerCharSet + upperCharSet + specialCharSet + numberSet
 )
